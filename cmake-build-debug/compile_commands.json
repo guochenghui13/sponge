@@ -1,0 +1,97 @@
+[
+{
+  "directory": "/Users/guochenghui/Desktop/cs144/sponge/cmake-build-debug",
+  "command": "/Library/Developer/CommandLineTools/usr/bin/c++ -I/Users/guochenghui/Desktop/cs144/sponge/libsponge/util -I/Users/guochenghui/Desktop/cs144/sponge/libsponge/tcp_helpers -I/Users/guochenghui/Desktop/cs144/sponge/libsponge  -std=c++17 -g -pedantic -pedantic-errors -Werror -Wall -Wextra -Wshadow -Wpointer-arith -Wcast-qual -Wformat=2 -Weffc++ -Wold-style-cast -Wloop-analysis -g -ggdb3 -Og -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX10.15.sdk -fcolor-diagnostics -std=gnu++17 -o libsponge/CMakeFiles/sponge.dir/byte_stream.cc.o -c /Users/guochenghui/Desktop/cs144/sponge/libsponge/byte_stream.cc",
+  "file": "/Users/guochenghui/Desktop/cs144/sponge/libsponge/byte_stream.cc"
+},
+{
+  "directory": "/Users/guochenghui/Desktop/cs144/sponge/cmake-build-debug",
+  "command": "/Library/Developer/CommandLineTools/usr/bin/c++ -I/Users/guochenghui/Desktop/cs144/sponge/libsponge/util -I/Users/guochenghui/Desktop/cs144/sponge/libsponge/tcp_helpers -I/Users/guochenghui/Desktop/cs144/sponge/libsponge  -std=c++17 -g -pedantic -pedantic-errors -Werror -Wall -Wextra -Wshadow -Wpointer-arith -Wcast-qual -Wformat=2 -Weffc++ -Wold-style-cast -Wloop-analysis -g -ggdb3 -Og -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX10.15.sdk -fcolor-diagnostics -std=gnu++17 -o libsponge/CMakeFiles/sponge.dir/util/address.cc.o -c /Users/guochenghui/Desktop/cs144/sponge/libsponge/util/address.cc",
+  "file": "/Users/guochenghui/Desktop/cs144/sponge/libsponge/util/address.cc"
+},
+{
+  "directory": "/Users/guochenghui/Desktop/cs144/sponge/cmake-build-debug",
+  "command": "/Library/Developer/CommandLineTools/usr/bin/c++ -I/Users/guochenghui/Desktop/cs144/sponge/libsponge/util -I/Users/guochenghui/Desktop/cs144/sponge/libsponge/tcp_helpers -I/Users/guochenghui/Desktop/cs144/sponge/libsponge  -std=c++17 -g -pedantic -pedantic-errors -Werror -Wall -Wextra -Wshadow -Wpointer-arith -Wcast-qual -Wformat=2 -Weffc++ -Wold-style-cast -Wloop-analysis -g -ggdb3 -Og -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX10.15.sdk -fcolor-diagnostics -std=gnu++17 -o libsponge/CMakeFiles/sponge.dir/util/buffer.cc.o -c /Users/guochenghui/Desktop/cs144/sponge/libsponge/util/buffer.cc",
+  "file": "/Users/guochenghui/Desktop/cs144/sponge/libsponge/util/buffer.cc"
+},
+{
+  "directory": "/Users/guochenghui/Desktop/cs144/sponge/cmake-build-debug",
+  "command": "/Library/Developer/CommandLineTools/usr/bin/c++ -I/Users/guochenghui/Desktop/cs144/sponge/libsponge/util -I/Users/guochenghui/Desktop/cs144/sponge/libsponge/tcp_helpers -I/Users/guochenghui/Desktop/cs144/sponge/libsponge  -std=c++17 -g -pedantic -pedantic-errors -Werror -Wall -Wextra -Wshadow -Wpointer-arith -Wcast-qual -Wformat=2 -Weffc++ -Wold-style-cast -Wloop-analysis -g -ggdb3 -Og -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX10.15.sdk -fcolor-diagnostics -std=gnu++17 -o libsponge/CMakeFiles/sponge.dir/util/eventloop.cc.o -c /Users/guochenghui/Desktop/cs144/sponge/libsponge/util/eventloop.cc",
+  "file": "/Users/guochenghui/Desktop/cs144/sponge/libsponge/util/eventloop.cc"
+},
+{
+  "directory": "/Users/guochenghui/Desktop/cs144/sponge/cmake-build-debug",
+  "command": "/Library/Developer/CommandLineTools/usr/bin/c++ -I/Users/guochenghui/Desktop/cs144/sponge/libsponge/util -I/Users/guochenghui/Desktop/cs144/sponge/libsponge/tcp_helpers -I/Users/guochenghui/Desktop/cs144/sponge/libsponge  -std=c++17 -g -pedantic -pedantic-errors -Werror -Wall -Wextra -Wshadow -Wpointer-arith -Wcast-qual -Wformat=2 -Weffc++ -Wold-style-cast -Wloop-analysis -g -ggdb3 -Og -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX10.15.sdk -fcolor-diagnostics -std=gnu++17 -o libsponge/CMakeFiles/sponge.dir/util/file_descriptor.cc.o -c /Users/guochenghui/Desktop/cs144/sponge/libsponge/util/file_descriptor.cc",
+  "file": "/Users/guochenghui/Desktop/cs144/sponge/libsponge/util/file_descriptor.cc"
+},
+{
+  "directory": "/Users/guochenghui/Desktop/cs144/sponge/cmake-build-debug",
+  "command": "/Library/Developer/CommandLineTools/usr/bin/c++ -I/Users/guochenghui/Desktop/cs144/sponge/libsponge/util -I/Users/guochenghui/Desktop/cs144/sponge/libsponge/tcp_helpers -I/Users/guochenghui/Desktop/cs144/sponge/libsponge  -std=c++17 -g -pedantic -pedantic-errors -Werror -Wall -Wextra -Wshadow -Wpointer-arith -Wcast-qual -Wformat=2 -Weffc++ -Wold-style-cast -Wloop-analysis -g -ggdb3 -Og -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX10.15.sdk -fcolor-diagnostics -std=gnu++17 -o libsponge/CMakeFiles/sponge.dir/util/parser.cc.o -c /Users/guochenghui/Desktop/cs144/sponge/libsponge/util/parser.cc",
+  "file": "/Users/guochenghui/Desktop/cs144/sponge/libsponge/util/parser.cc"
+},
+{
+  "directory": "/Users/guochenghui/Desktop/cs144/sponge/cmake-build-debug",
+  "command": "/Library/Developer/CommandLineTools/usr/bin/c++ -I/Users/guochenghui/Desktop/cs144/sponge/libsponge/util -I/Users/guochenghui/Desktop/cs144/sponge/libsponge/tcp_helpers -I/Users/guochenghui/Desktop/cs144/sponge/libsponge  -std=c++17 -g -pedantic -pedantic-errors -Werror -Wall -Wextra -Wshadow -Wpointer-arith -Wcast-qual -Wformat=2 -Weffc++ -Wold-style-cast -Wloop-analysis -g -ggdb3 -Og -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX10.15.sdk -fcolor-diagnostics -std=gnu++17 -o libsponge/CMakeFiles/sponge.dir/util/socket.cc.o -c /Users/guochenghui/Desktop/cs144/sponge/libsponge/util/socket.cc",
+  "file": "/Users/guochenghui/Desktop/cs144/sponge/libsponge/util/socket.cc"
+},
+{
+  "directory": "/Users/guochenghui/Desktop/cs144/sponge/cmake-build-debug",
+  "command": "/Library/Developer/CommandLineTools/usr/bin/c++ -I/Users/guochenghui/Desktop/cs144/sponge/libsponge/util -I/Users/guochenghui/Desktop/cs144/sponge/libsponge/tcp_helpers -I/Users/guochenghui/Desktop/cs144/sponge/libsponge  -std=c++17 -g -pedantic -pedantic-errors -Werror -Wall -Wextra -Wshadow -Wpointer-arith -Wcast-qual -Wformat=2 -Weffc++ -Wold-style-cast -Wloop-analysis -g -ggdb3 -Og -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX10.15.sdk -fcolor-diagnostics -std=gnu++17 -o libsponge/CMakeFiles/sponge.dir/util/tun.cc.o -c /Users/guochenghui/Desktop/cs144/sponge/libsponge/util/tun.cc",
+  "file": "/Users/guochenghui/Desktop/cs144/sponge/libsponge/util/tun.cc"
+},
+{
+  "directory": "/Users/guochenghui/Desktop/cs144/sponge/cmake-build-debug",
+  "command": "/Library/Developer/CommandLineTools/usr/bin/c++ -I/Users/guochenghui/Desktop/cs144/sponge/libsponge/util -I/Users/guochenghui/Desktop/cs144/sponge/libsponge/tcp_helpers -I/Users/guochenghui/Desktop/cs144/sponge/libsponge  -std=c++17 -g -pedantic -pedantic-errors -Werror -Wall -Wextra -Wshadow -Wpointer-arith -Wcast-qual -Wformat=2 -Weffc++ -Wold-style-cast -Wloop-analysis -g -ggdb3 -Og -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX10.15.sdk -fcolor-diagnostics -std=gnu++17 -o libsponge/CMakeFiles/sponge.dir/util/util.cc.o -c /Users/guochenghui/Desktop/cs144/sponge/libsponge/util/util.cc",
+  "file": "/Users/guochenghui/Desktop/cs144/sponge/libsponge/util/util.cc"
+},
+{
+  "directory": "/Users/guochenghui/Desktop/cs144/sponge/cmake-build-debug",
+  "command": "/Library/Developer/CommandLineTools/usr/bin/c++ -I/Users/guochenghui/Desktop/cs144/sponge/libsponge/util -I/Users/guochenghui/Desktop/cs144/sponge/libsponge/tcp_helpers -I/Users/guochenghui/Desktop/cs144/sponge/libsponge  -std=c++17 -g -pedantic -pedantic-errors -Werror -Wall -Wextra -Wshadow -Wpointer-arith -Wcast-qual -Wformat=2 -Weffc++ -Wold-style-cast -Wloop-analysis -g -ggdb3 -Og -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX10.15.sdk -fcolor-diagnostics -std=gnu++17 -o apps/CMakeFiles/webget.dir/webget.cc.o -c /Users/guochenghui/Desktop/cs144/sponge/apps/webget.cc",
+  "file": "/Users/guochenghui/Desktop/cs144/sponge/apps/webget.cc"
+},
+{
+  "directory": "/Users/guochenghui/Desktop/cs144/sponge/cmake-build-debug",
+  "command": "/Library/Developer/CommandLineTools/usr/bin/c++ -I/Users/guochenghui/Desktop/cs144/sponge/libsponge/util -I/Users/guochenghui/Desktop/cs144/sponge/libsponge/tcp_helpers -I/Users/guochenghui/Desktop/cs144/sponge/libsponge  -std=c++17 -g -pedantic -pedantic-errors -Werror -Wall -Wextra -Wshadow -Wpointer-arith -Wcast-qual -Wformat=2 -Weffc++ -Wold-style-cast -Wloop-analysis -g -ggdb3 -Og -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX10.15.sdk -fcolor-diagnostics -std=gnu++17 -o tests/CMakeFiles/spongechecks.dir/byte_stream_test_harness.cc.o -c /Users/guochenghui/Desktop/cs144/sponge/tests/byte_stream_test_harness.cc",
+  "file": "/Users/guochenghui/Desktop/cs144/sponge/tests/byte_stream_test_harness.cc"
+},
+{
+  "directory": "/Users/guochenghui/Desktop/cs144/sponge/cmake-build-debug",
+  "command": "/Library/Developer/CommandLineTools/usr/bin/c++ -I/Users/guochenghui/Desktop/cs144/sponge/libsponge/util -I/Users/guochenghui/Desktop/cs144/sponge/libsponge/tcp_helpers -I/Users/guochenghui/Desktop/cs144/sponge/libsponge  -std=c++17 -g -pedantic -pedantic-errors -Werror -Wall -Wextra -Wshadow -Wpointer-arith -Wcast-qual -Wformat=2 -Weffc++ -Wold-style-cast -Wloop-analysis -g -ggdb3 -Og -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX10.15.sdk -fcolor-diagnostics -std=gnu++17 -o tests/CMakeFiles/byte_stream_construction.dir/byte_stream_construction.cc.o -c /Users/guochenghui/Desktop/cs144/sponge/tests/byte_stream_construction.cc",
+  "file": "/Users/guochenghui/Desktop/cs144/sponge/tests/byte_stream_construction.cc"
+},
+{
+  "directory": "/Users/guochenghui/Desktop/cs144/sponge/cmake-build-debug",
+  "command": "/Library/Developer/CommandLineTools/usr/bin/c++ -I/Users/guochenghui/Desktop/cs144/sponge/libsponge/util -I/Users/guochenghui/Desktop/cs144/sponge/libsponge/tcp_helpers -I/Users/guochenghui/Desktop/cs144/sponge/libsponge  -std=c++17 -g -pedantic -pedantic-errors -Werror -Wall -Wextra -Wshadow -Wpointer-arith -Wcast-qual -Wformat=2 -Weffc++ -Wold-style-cast -Wloop-analysis -g -ggdb3 -Og -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX10.15.sdk -fcolor-diagnostics -std=gnu++17 -o tests/CMakeFiles/byte_stream_one_write.dir/byte_stream_one_write.cc.o -c /Users/guochenghui/Desktop/cs144/sponge/tests/byte_stream_one_write.cc",
+  "file": "/Users/guochenghui/Desktop/cs144/sponge/tests/byte_stream_one_write.cc"
+},
+{
+  "directory": "/Users/guochenghui/Desktop/cs144/sponge/cmake-build-debug",
+  "command": "/Library/Developer/CommandLineTools/usr/bin/c++ -I/Users/guochenghui/Desktop/cs144/sponge/libsponge/util -I/Users/guochenghui/Desktop/cs144/sponge/libsponge/tcp_helpers -I/Users/guochenghui/Desktop/cs144/sponge/libsponge  -std=c++17 -g -pedantic -pedantic-errors -Werror -Wall -Wextra -Wshadow -Wpointer-arith -Wcast-qual -Wformat=2 -Weffc++ -Wold-style-cast -Wloop-analysis -g -ggdb3 -Og -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX10.15.sdk -fcolor-diagnostics -std=gnu++17 -o tests/CMakeFiles/byte_stream_two_writes.dir/byte_stream_two_writes.cc.o -c /Users/guochenghui/Desktop/cs144/sponge/tests/byte_stream_two_writes.cc",
+  "file": "/Users/guochenghui/Desktop/cs144/sponge/tests/byte_stream_two_writes.cc"
+},
+{
+  "directory": "/Users/guochenghui/Desktop/cs144/sponge/cmake-build-debug",
+  "command": "/Library/Developer/CommandLineTools/usr/bin/c++ -I/Users/guochenghui/Desktop/cs144/sponge/libsponge/util -I/Users/guochenghui/Desktop/cs144/sponge/libsponge/tcp_helpers -I/Users/guochenghui/Desktop/cs144/sponge/libsponge  -std=c++17 -g -pedantic -pedantic-errors -Werror -Wall -Wextra -Wshadow -Wpointer-arith -Wcast-qual -Wformat=2 -Weffc++ -Wold-style-cast -Wloop-analysis -g -ggdb3 -Og -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX10.15.sdk -fcolor-diagnostics -std=gnu++17 -o tests/CMakeFiles/byte_stream_capacity.dir/byte_stream_capacity.cc.o -c /Users/guochenghui/Desktop/cs144/sponge/tests/byte_stream_capacity.cc",
+  "file": "/Users/guochenghui/Desktop/cs144/sponge/tests/byte_stream_capacity.cc"
+},
+{
+  "directory": "/Users/guochenghui/Desktop/cs144/sponge/cmake-build-debug",
+  "command": "/Library/Developer/CommandLineTools/usr/bin/c++ -I/Users/guochenghui/Desktop/cs144/sponge/libsponge/util -I/Users/guochenghui/Desktop/cs144/sponge/libsponge/tcp_helpers -I/Users/guochenghui/Desktop/cs144/sponge/libsponge  -std=c++17 -g -pedantic -pedantic-errors -Werror -Wall -Wextra -Wshadow -Wpointer-arith -Wcast-qual -Wformat=2 -Weffc++ -Wold-style-cast -Wloop-analysis -g -ggdb3 -Og -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX10.15.sdk -fcolor-diagnostics -std=gnu++17 -o tests/CMakeFiles/byte_stream_many_writes.dir/byte_stream_many_writes.cc.o -c /Users/guochenghui/Desktop/cs144/sponge/tests/byte_stream_many_writes.cc",
+  "file": "/Users/guochenghui/Desktop/cs144/sponge/tests/byte_stream_many_writes.cc"
+},
+{
+  "directory": "/Users/guochenghui/Desktop/cs144/sponge/cmake-build-debug",
+  "command": "/Library/Developer/CommandLineTools/usr/bin/c++ -I/Users/guochenghui/Desktop/cs144/sponge/libsponge/util -I/Users/guochenghui/Desktop/cs144/sponge/libsponge/tcp_helpers -I/Users/guochenghui/Desktop/cs144/sponge/libsponge  -std=c++17 -g -pedantic -pedantic-errors -Werror -Wall -Wextra -Wshadow -Wpointer-arith -Wcast-qual -Wformat=2 -Weffc++ -Wold-style-cast -Wloop-analysis -g -ggdb3 -Og -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX10.15.sdk -fcolor-diagnostics -std=gnu++17 -o doctests/CMakeFiles/address_dt.dir/address_dt.cc.o -c /Users/guochenghui/Desktop/cs144/sponge/doctests/address_dt.cc",
+  "file": "/Users/guochenghui/Desktop/cs144/sponge/doctests/address_dt.cc"
+},
+{
+  "directory": "/Users/guochenghui/Desktop/cs144/sponge/cmake-build-debug",
+  "command": "/Library/Developer/CommandLineTools/usr/bin/c++ -I/Users/guochenghui/Desktop/cs144/sponge/libsponge/util -I/Users/guochenghui/Desktop/cs144/sponge/libsponge/tcp_helpers -I/Users/guochenghui/Desktop/cs144/sponge/libsponge  -std=c++17 -g -pedantic -pedantic-errors -Werror -Wall -Wextra -Wshadow -Wpointer-arith -Wcast-qual -Wformat=2 -Weffc++ -Wold-style-cast -Wloop-analysis -g -ggdb3 -Og -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX10.15.sdk -fcolor-diagnostics -std=gnu++17 -o doctests/CMakeFiles/parser_dt.dir/parser_dt.cc.o -c /Users/guochenghui/Desktop/cs144/sponge/doctests/parser_dt.cc",
+  "file": "/Users/guochenghui/Desktop/cs144/sponge/doctests/parser_dt.cc"
+},
+{
+  "directory": "/Users/guochenghui/Desktop/cs144/sponge/cmake-build-debug",
+  "command": "/Library/Developer/CommandLineTools/usr/bin/c++ -I/Users/guochenghui/Desktop/cs144/sponge/libsponge/util -I/Users/guochenghui/Desktop/cs144/sponge/libsponge/tcp_helpers -I/Users/guochenghui/Desktop/cs144/sponge/libsponge  -std=c++17 -g -pedantic -pedantic-errors -Werror -Wall -Wextra -Wshadow -Wpointer-arith -Wcast-qual -Wformat=2 -Weffc++ -Wold-style-cast -Wloop-analysis -g -ggdb3 -Og -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX10.15.sdk -fcolor-diagnostics -std=gnu++17 -o doctests/CMakeFiles/socket_dt.dir/socket_dt.cc.o -c /Users/guochenghui/Desktop/cs144/sponge/doctests/socket_dt.cc",
+  "file": "/Users/guochenghui/Desktop/cs144/sponge/doctests/socket_dt.cc"
+}
+]
