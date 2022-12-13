@@ -20,6 +20,14 @@
 /Users/guochenghui/Desktop/cs144/sponge/cmake-build-debug/apps/CMakeFiles/edit_cache.dir
 /Users/guochenghui/Desktop/cs144/sponge/cmake-build-debug/apps/CMakeFiles/rebuild_cache.dir
 /Users/guochenghui/Desktop/cs144/sponge/cmake-build-debug/tests/CMakeFiles/spongechecks.dir
+/Users/guochenghui/Desktop/cs144/sponge/cmake-build-debug/tests/CMakeFiles/fsm_stream_reassembler_single.dir
+/Users/guochenghui/Desktop/cs144/sponge/cmake-build-debug/tests/CMakeFiles/fsm_stream_reassembler_seq.dir
+/Users/guochenghui/Desktop/cs144/sponge/cmake-build-debug/tests/CMakeFiles/fsm_stream_reassembler_dup.dir
+/Users/guochenghui/Desktop/cs144/sponge/cmake-build-debug/tests/CMakeFiles/fsm_stream_reassembler_holes.dir
+/Users/guochenghui/Desktop/cs144/sponge/cmake-build-debug/tests/CMakeFiles/fsm_stream_reassembler_many.dir
+/Users/guochenghui/Desktop/cs144/sponge/cmake-build-debug/tests/CMakeFiles/fsm_stream_reassembler_overlapping.dir
+/Users/guochenghui/Desktop/cs144/sponge/cmake-build-debug/tests/CMakeFiles/fsm_stream_reassembler_win.dir
+/Users/guochenghui/Desktop/cs144/sponge/cmake-build-debug/tests/CMakeFiles/fsm_stream_reassembler_cap.dir
 /Users/guochenghui/Desktop/cs144/sponge/cmake-build-debug/tests/CMakeFiles/byte_stream_construction.dir
 /Users/guochenghui/Desktop/cs144/sponge/cmake-build-debug/tests/CMakeFiles/byte_stream_one_write.dir
 /Users/guochenghui/Desktop/cs144/sponge/cmake-build-debug/tests/CMakeFiles/byte_stream_two_writes.dir
