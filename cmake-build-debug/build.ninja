@@ -239,6 +239,34 @@ build libsponge/CMakeFiles/sponge.dir/stream_reassembler.cc.o: CXX_COMPILER__spo
   OBJECT_DIR = libsponge/CMakeFiles/sponge.dir
   OBJECT_FILE_DIR = libsponge/CMakeFiles/sponge.dir
 
+build libsponge/CMakeFiles/sponge.dir/tcp_helpers/tcp_header.cc.o: CXX_COMPILER__sponge_Debug /Users/guochenghui/Desktop/cs144/sponge/libsponge/tcp_helpers/tcp_header.cc || cmake_object_order_depends_target_sponge
+  DEP_FILE = libsponge/CMakeFiles/sponge.dir/tcp_helpers/tcp_header.cc.o.d
+  FLAGS = -std=c++17 -g -pedantic -pedantic-errors -Werror -Wall -Wextra -Wshadow -Wpointer-arith -Wcast-qual -Wformat=2 -Weffc++ -Wold-style-cast -Wloop-analysis -g -ggdb3 -Og -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX10.15.sdk -fcolor-diagnostics -std=gnu++17
+  INCLUDES = -I/Users/guochenghui/Desktop/cs144/sponge/libsponge/util -I/Users/guochenghui/Desktop/cs144/sponge/libsponge/tcp_helpers -I/Users/guochenghui/Desktop/cs144/sponge/libsponge
+  OBJECT_DIR = libsponge/CMakeFiles/sponge.dir
+  OBJECT_FILE_DIR = libsponge/CMakeFiles/sponge.dir/tcp_helpers
+
+build libsponge/CMakeFiles/sponge.dir/tcp_helpers/tcp_segment.cc.o: CXX_COMPILER__sponge_Debug /Users/guochenghui/Desktop/cs144/sponge/libsponge/tcp_helpers/tcp_segment.cc || cmake_object_order_depends_target_sponge
+  DEP_FILE = libsponge/CMakeFiles/sponge.dir/tcp_helpers/tcp_segment.cc.o.d
+  FLAGS = -std=c++17 -g -pedantic -pedantic-errors -Werror -Wall -Wextra -Wshadow -Wpointer-arith -Wcast-qual -Wformat=2 -Weffc++ -Wold-style-cast -Wloop-analysis -g -ggdb3 -Og -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX10.15.sdk -fcolor-diagnostics -std=gnu++17
+  INCLUDES = -I/Users/guochenghui/Desktop/cs144/sponge/libsponge/util -I/Users/guochenghui/Desktop/cs144/sponge/libsponge/tcp_helpers -I/Users/guochenghui/Desktop/cs144/sponge/libsponge
+  OBJECT_DIR = libsponge/CMakeFiles/sponge.dir
+  OBJECT_FILE_DIR = libsponge/CMakeFiles/sponge.dir/tcp_helpers
+
+build libsponge/CMakeFiles/sponge.dir/tcp_helpers/tcp_state.cc.o: CXX_COMPILER__sponge_Debug /Users/guochenghui/Desktop/cs144/sponge/libsponge/tcp_helpers/tcp_state.cc || cmake_object_order_depends_target_sponge
+  DEP_FILE = libsponge/CMakeFiles/sponge.dir/tcp_helpers/tcp_state.cc.o.d
+  FLAGS = -std=c++17 -g -pedantic -pedantic-errors -Werror -Wall -Wextra -Wshadow -Wpointer-arith -Wcast-qual -Wformat=2 -Weffc++ -Wold-style-cast -Wloop-analysis -g -ggdb3 -Og -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX10.15.sdk -fcolor-diagnostics -std=gnu++17
+  INCLUDES = -I/Users/guochenghui/Desktop/cs144/sponge/libsponge/util -I/Users/guochenghui/Desktop/cs144/sponge/libsponge/tcp_helpers -I/Users/guochenghui/Desktop/cs144/sponge/libsponge
+  OBJECT_DIR = libsponge/CMakeFiles/sponge.dir
+  OBJECT_FILE_DIR = libsponge/CMakeFiles/sponge.dir/tcp_helpers
+
+build libsponge/CMakeFiles/sponge.dir/tcp_receiver.cc.o: CXX_COMPILER__sponge_Debug /Users/guochenghui/Desktop/cs144/sponge/libsponge/tcp_receiver.cc || cmake_object_order_depends_target_sponge
+  DEP_FILE = libsponge/CMakeFiles/sponge.dir/tcp_receiver.cc.o.d
+  FLAGS = -std=c++17 -g -pedantic -pedantic-errors -Werror -Wall -Wextra -Wshadow -Wpointer-arith -Wcast-qual -Wformat=2 -Weffc++ -Wold-style-cast -Wloop-analysis -g -ggdb3 -Og -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX10.15.sdk -fcolor-diagnostics -std=gnu++17
+  INCLUDES = -I/Users/guochenghui/Desktop/cs144/sponge/libsponge/util -I/Users/guochenghui/Desktop/cs144/sponge/libsponge/tcp_helpers -I/Users/guochenghui/Desktop/cs144/sponge/libsponge
+  OBJECT_DIR = libsponge/CMakeFiles/sponge.dir
+  OBJECT_FILE_DIR = libsponge/CMakeFiles/sponge.dir
+
 build libsponge/CMakeFiles/sponge.dir/util/address.cc.o: CXX_COMPILER__sponge_Debug /Users/guochenghui/Desktop/cs144/sponge/libsponge/util/address.cc || cmake_object_order_depends_target_sponge
   DEP_FILE = libsponge/CMakeFiles/sponge.dir/util/address.cc.o.d
   FLAGS = -std=c++17 -g -pedantic -pedantic-errors -Werror -Wall -Wextra -Wshadow -Wpointer-arith -Wcast-qual -Wformat=2 -Weffc++ -Wold-style-cast -Wloop-analysis -g -ggdb3 -Og -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX10.15.sdk -fcolor-diagnostics -std=gnu++17
@@ -295,6 +323,13 @@ build libsponge/CMakeFiles/sponge.dir/util/util.cc.o: CXX_COMPILER__sponge_Debug
   OBJECT_DIR = libsponge/CMakeFiles/sponge.dir
   OBJECT_FILE_DIR = libsponge/CMakeFiles/sponge.dir/util
 
+build libsponge/CMakeFiles/sponge.dir/wrapping_integers.cc.o: CXX_COMPILER__sponge_Debug /Users/guochenghui/Desktop/cs144/sponge/libsponge/wrapping_integers.cc || cmake_object_order_depends_target_sponge
+  DEP_FILE = libsponge/CMakeFiles/sponge.dir/wrapping_integers.cc.o.d
+  FLAGS = -std=c++17 -g -pedantic -pedantic-errors -Werror -Wall -Wextra -Wshadow -Wpointer-arith -Wcast-qual -Wformat=2 -Weffc++ -Wold-style-cast -Wloop-analysis -g -ggdb3 -Og -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX10.15.sdk -fcolor-diagnostics -std=gnu++17
+  INCLUDES = -I/Users/guochenghui/Desktop/cs144/sponge/libsponge/util -I/Users/guochenghui/Desktop/cs144/sponge/libsponge/tcp_helpers -I/Users/guochenghui/Desktop/cs144/sponge/libsponge
+  OBJECT_DIR = libsponge/CMakeFiles/sponge.dir
+  OBJECT_FILE_DIR = libsponge/CMakeFiles/sponge.dir
+
 
 # =============================================================================
 # Link build statements for STATIC_LIBRARY target sponge
@@ -303,7 +338,7 @@ build libsponge/CMakeFiles/sponge.dir/util/util.cc.o: CXX_COMPILER__sponge_Debug
 #############################################
 # Link the static library libsponge/libsponge.a
 
-build libsponge/libsponge.a: CXX_STATIC_LIBRARY_LINKER__sponge_Debug libsponge/CMakeFiles/sponge.dir/byte_stream.cc.o libsponge/CMakeFiles/sponge.dir/stream_reassembler.cc.o libsponge/CMakeFiles/sponge.dir/util/address.cc.o libsponge/CMakeFiles/sponge.dir/util/buffer.cc.o libsponge/CMakeFiles/sponge.dir/util/eventloop.cc.o libsponge/CMakeFiles/sponge.dir/util/file_descriptor.cc.o libsponge/CMakeFiles/sponge.dir/util/parser.cc.o libsponge/CMakeFiles/sponge.dir/util/socket.cc.o libsponge/CMakeFiles/sponge.dir/util/tun.cc.o libsponge/CMakeFiles/sponge.dir/util/util.cc.o
+build libsponge/libsponge.a: CXX_STATIC_LIBRARY_LINKER__sponge_Debug libsponge/CMakeFiles/sponge.dir/byte_stream.cc.o libsponge/CMakeFiles/sponge.dir/stream_reassembler.cc.o libsponge/CMakeFiles/sponge.dir/tcp_helpers/tcp_header.cc.o libsponge/CMakeFiles/sponge.dir/tcp_helpers/tcp_segment.cc.o libsponge/CMakeFiles/sponge.dir/tcp_helpers/tcp_state.cc.o libsponge/CMakeFiles/sponge.dir/tcp_receiver.cc.o libsponge/CMakeFiles/sponge.dir/util/address.cc.o libsponge/CMakeFiles/sponge.dir/util/buffer.cc.o libsponge/CMakeFiles/sponge.dir/util/eventloop.cc.o libsponge/CMakeFiles/sponge.dir/util/file_descriptor.cc.o libsponge/CMakeFiles/sponge.dir/util/parser.cc.o libsponge/CMakeFiles/sponge.dir/util/socket.cc.o libsponge/CMakeFiles/sponge.dir/util/tun.cc.o libsponge/CMakeFiles/sponge.dir/util/util.cc.o libsponge/CMakeFiles/sponge.dir/wrapping_integers.cc.o
   ARCH_FLAGS = -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX10.15.sdk
   LANGUAGE_COMPILE_FLAGS = -std=c++17 -g -pedantic -pedantic-errors -Werror -Wall -Wextra -Wshadow -Wpointer-arith -Wcast-qual -Wformat=2 -Weffc++ -Wold-style-cast -Wloop-analysis -g -ggdb3 -Og
   OBJECT_DIR = libsponge/CMakeFiles/sponge.dir
@@ -457,6 +492,39 @@ build tests/libspongechecks.a: CXX_STATIC_LIBRARY_LINKER__spongechecks_Debug tes
   PRE_LINK = :
   TARGET_FILE = tests/libspongechecks.a
   TARGET_PDB = spongechecks.a.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target tcp_parser
+
+
+#############################################
+# Order-only phony target for tcp_parser
+
+build cmake_object_order_depends_target_tcp_parser: phony || cmake_object_order_depends_target_sponge cmake_object_order_depends_target_spongechecks
+
+build tests/CMakeFiles/tcp_parser.dir/tcp_parser.cc.o: CXX_COMPILER__tcp_parser_Debug /Users/guochenghui/Desktop/cs144/sponge/tests/tcp_parser.cc || cmake_object_order_depends_target_tcp_parser
+  DEP_FILE = tests/CMakeFiles/tcp_parser.dir/tcp_parser.cc.o.d
+  FLAGS = -std=c++17 -g -pedantic -pedantic-errors -Werror -Wall -Wextra -Wshadow -Wpointer-arith -Wcast-qual -Wformat=2 -Weffc++ -Wold-style-cast -Wloop-analysis -g -ggdb3 -Og -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX10.15.sdk -fcolor-diagnostics -std=gnu++17
+  INCLUDES = -I/Users/guochenghui/Desktop/cs144/sponge/libsponge/util -I/Users/guochenghui/Desktop/cs144/sponge/libsponge/tcp_helpers -I/Users/guochenghui/Desktop/cs144/sponge/libsponge
+  OBJECT_DIR = tests/CMakeFiles/tcp_parser.dir
+  OBJECT_FILE_DIR = tests/CMakeFiles/tcp_parser.dir
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target tcp_parser
+
+
+#############################################
+# Link the executable tests/tcp_parser
+
+build tests/tcp_parser: CXX_EXECUTABLE_LINKER__tcp_parser_Debug tests/CMakeFiles/tcp_parser.dir/tcp_parser.cc.o | tests/libspongechecks.a /Library/Developer/CommandLineTools/SDKs/MacOSX10.15.sdk/usr/lib/libpcap.tbd libsponge/libsponge.a /Library/Developer/CommandLineTools/SDKs/MacOSX10.15.sdk/usr/lib/libpcap.tbd || libsponge/libsponge.a tests/libspongechecks.a
+  FLAGS = -std=c++17 -g -pedantic -pedantic-errors -Werror -Wall -Wextra -Wshadow -Wpointer-arith -Wcast-qual -Wformat=2 -Weffc++ -Wold-style-cast -Wloop-analysis -g -ggdb3 -Og -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX10.15.sdk
+  LINK_LIBRARIES = tests/libspongechecks.a  /Library/Developer/CommandLineTools/SDKs/MacOSX10.15.sdk/usr/lib/libpcap.tbd  libsponge/libsponge.a  /Library/Developer/CommandLineTools/SDKs/MacOSX10.15.sdk/usr/lib/libpcap.tbd
+  OBJECT_DIR = tests/CMakeFiles/tcp_parser.dir
+  POST_BUILD = :
+  PRE_LINK = :
+  TARGET_FILE = tests/tcp_parser
+  TARGET_PDB = tcp_parser.dbg
 
 # =============================================================================
 # Object build statements for EXECUTABLE target fsm_stream_reassembler_single
@@ -887,6 +955,336 @@ build tests/byte_stream_many_writes: CXX_EXECUTABLE_LINKER__byte_stream_many_wri
   TARGET_FILE = tests/byte_stream_many_writes
   TARGET_PDB = byte_stream_many_writes.dbg
 
+# =============================================================================
+# Object build statements for EXECUTABLE target wrapping_integers_cmp
+
+
+#############################################
+# Order-only phony target for wrapping_integers_cmp
+
+build cmake_object_order_depends_target_wrapping_integers_cmp: phony || cmake_object_order_depends_target_sponge cmake_object_order_depends_target_spongechecks
+
+build tests/CMakeFiles/wrapping_integers_cmp.dir/wrapping_integers_cmp.cc.o: CXX_COMPILER__wrapping_integers_cmp_Debug /Users/guochenghui/Desktop/cs144/sponge/tests/wrapping_integers_cmp.cc || cmake_object_order_depends_target_wrapping_integers_cmp
+  DEP_FILE = tests/CMakeFiles/wrapping_integers_cmp.dir/wrapping_integers_cmp.cc.o.d
+  FLAGS = -std=c++17 -g -pedantic -pedantic-errors -Werror -Wall -Wextra -Wshadow -Wpointer-arith -Wcast-qual -Wformat=2 -Weffc++ -Wold-style-cast -Wloop-analysis -g -ggdb3 -Og -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX10.15.sdk -fcolor-diagnostics -std=gnu++17
+  INCLUDES = -I/Users/guochenghui/Desktop/cs144/sponge/libsponge/util -I/Users/guochenghui/Desktop/cs144/sponge/libsponge/tcp_helpers -I/Users/guochenghui/Desktop/cs144/sponge/libsponge
+  OBJECT_DIR = tests/CMakeFiles/wrapping_integers_cmp.dir
+  OBJECT_FILE_DIR = tests/CMakeFiles/wrapping_integers_cmp.dir
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target wrapping_integers_cmp
+
+
+#############################################
+# Link the executable tests/wrapping_integers_cmp
+
+build tests/wrapping_integers_cmp: CXX_EXECUTABLE_LINKER__wrapping_integers_cmp_Debug tests/CMakeFiles/wrapping_integers_cmp.dir/wrapping_integers_cmp.cc.o | tests/libspongechecks.a libsponge/libsponge.a || libsponge/libsponge.a tests/libspongechecks.a
+  FLAGS = -std=c++17 -g -pedantic -pedantic-errors -Werror -Wall -Wextra -Wshadow -Wpointer-arith -Wcast-qual -Wformat=2 -Weffc++ -Wold-style-cast -Wloop-analysis -g -ggdb3 -Og -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX10.15.sdk
+  LINK_LIBRARIES = tests/libspongechecks.a  libsponge/libsponge.a
+  OBJECT_DIR = tests/CMakeFiles/wrapping_integers_cmp.dir
+  POST_BUILD = :
+  PRE_LINK = :
+  TARGET_FILE = tests/wrapping_integers_cmp
+  TARGET_PDB = wrapping_integers_cmp.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target wrapping_integers_unwrap
+
+
+#############################################
+# Order-only phony target for wrapping_integers_unwrap
+
+build cmake_object_order_depends_target_wrapping_integers_unwrap: phony || cmake_object_order_depends_target_sponge cmake_object_order_depends_target_spongechecks
+
+build tests/CMakeFiles/wrapping_integers_unwrap.dir/wrapping_integers_unwrap.cc.o: CXX_COMPILER__wrapping_integers_unwrap_Debug /Users/guochenghui/Desktop/cs144/sponge/tests/wrapping_integers_unwrap.cc || cmake_object_order_depends_target_wrapping_integers_unwrap
+  DEP_FILE = tests/CMakeFiles/wrapping_integers_unwrap.dir/wrapping_integers_unwrap.cc.o.d
+  FLAGS = -std=c++17 -g -pedantic -pedantic-errors -Werror -Wall -Wextra -Wshadow -Wpointer-arith -Wcast-qual -Wformat=2 -Weffc++ -Wold-style-cast -Wloop-analysis -g -ggdb3 -Og -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX10.15.sdk -fcolor-diagnostics -std=gnu++17
+  INCLUDES = -I/Users/guochenghui/Desktop/cs144/sponge/libsponge/util -I/Users/guochenghui/Desktop/cs144/sponge/libsponge/tcp_helpers -I/Users/guochenghui/Desktop/cs144/sponge/libsponge
+  OBJECT_DIR = tests/CMakeFiles/wrapping_integers_unwrap.dir
+  OBJECT_FILE_DIR = tests/CMakeFiles/wrapping_integers_unwrap.dir
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target wrapping_integers_unwrap
+
+
+#############################################
+# Link the executable tests/wrapping_integers_unwrap
+
+build tests/wrapping_integers_unwrap: CXX_EXECUTABLE_LINKER__wrapping_integers_unwrap_Debug tests/CMakeFiles/wrapping_integers_unwrap.dir/wrapping_integers_unwrap.cc.o | tests/libspongechecks.a libsponge/libsponge.a || libsponge/libsponge.a tests/libspongechecks.a
+  FLAGS = -std=c++17 -g -pedantic -pedantic-errors -Werror -Wall -Wextra -Wshadow -Wpointer-arith -Wcast-qual -Wformat=2 -Weffc++ -Wold-style-cast -Wloop-analysis -g -ggdb3 -Og -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX10.15.sdk
+  LINK_LIBRARIES = tests/libspongechecks.a  libsponge/libsponge.a
+  OBJECT_DIR = tests/CMakeFiles/wrapping_integers_unwrap.dir
+  POST_BUILD = :
+  PRE_LINK = :
+  TARGET_FILE = tests/wrapping_integers_unwrap
+  TARGET_PDB = wrapping_integers_unwrap.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target wrapping_integers_wrap
+
+
+#############################################
+# Order-only phony target for wrapping_integers_wrap
+
+build cmake_object_order_depends_target_wrapping_integers_wrap: phony || cmake_object_order_depends_target_sponge cmake_object_order_depends_target_spongechecks
+
+build tests/CMakeFiles/wrapping_integers_wrap.dir/wrapping_integers_wrap.cc.o: CXX_COMPILER__wrapping_integers_wrap_Debug /Users/guochenghui/Desktop/cs144/sponge/tests/wrapping_integers_wrap.cc || cmake_object_order_depends_target_wrapping_integers_wrap
+  DEP_FILE = tests/CMakeFiles/wrapping_integers_wrap.dir/wrapping_integers_wrap.cc.o.d
+  FLAGS = -std=c++17 -g -pedantic -pedantic-errors -Werror -Wall -Wextra -Wshadow -Wpointer-arith -Wcast-qual -Wformat=2 -Weffc++ -Wold-style-cast -Wloop-analysis -g -ggdb3 -Og -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX10.15.sdk -fcolor-diagnostics -std=gnu++17
+  INCLUDES = -I/Users/guochenghui/Desktop/cs144/sponge/libsponge/util -I/Users/guochenghui/Desktop/cs144/sponge/libsponge/tcp_helpers -I/Users/guochenghui/Desktop/cs144/sponge/libsponge
+  OBJECT_DIR = tests/CMakeFiles/wrapping_integers_wrap.dir
+  OBJECT_FILE_DIR = tests/CMakeFiles/wrapping_integers_wrap.dir
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target wrapping_integers_wrap
+
+
+#############################################
+# Link the executable tests/wrapping_integers_wrap
+
+build tests/wrapping_integers_wrap: CXX_EXECUTABLE_LINKER__wrapping_integers_wrap_Debug tests/CMakeFiles/wrapping_integers_wrap.dir/wrapping_integers_wrap.cc.o | tests/libspongechecks.a libsponge/libsponge.a || libsponge/libsponge.a tests/libspongechecks.a
+  FLAGS = -std=c++17 -g -pedantic -pedantic-errors -Werror -Wall -Wextra -Wshadow -Wpointer-arith -Wcast-qual -Wformat=2 -Weffc++ -Wold-style-cast -Wloop-analysis -g -ggdb3 -Og -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX10.15.sdk
+  LINK_LIBRARIES = tests/libspongechecks.a  libsponge/libsponge.a
+  OBJECT_DIR = tests/CMakeFiles/wrapping_integers_wrap.dir
+  POST_BUILD = :
+  PRE_LINK = :
+  TARGET_FILE = tests/wrapping_integers_wrap
+  TARGET_PDB = wrapping_integers_wrap.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target wrapping_integers_roundtrip
+
+
+#############################################
+# Order-only phony target for wrapping_integers_roundtrip
+
+build cmake_object_order_depends_target_wrapping_integers_roundtrip: phony || cmake_object_order_depends_target_sponge cmake_object_order_depends_target_spongechecks
+
+build tests/CMakeFiles/wrapping_integers_roundtrip.dir/wrapping_integers_roundtrip.cc.o: CXX_COMPILER__wrapping_integers_roundtrip_Debug /Users/guochenghui/Desktop/cs144/sponge/tests/wrapping_integers_roundtrip.cc || cmake_object_order_depends_target_wrapping_integers_roundtrip
+  DEP_FILE = tests/CMakeFiles/wrapping_integers_roundtrip.dir/wrapping_integers_roundtrip.cc.o.d
+  FLAGS = -std=c++17 -g -pedantic -pedantic-errors -Werror -Wall -Wextra -Wshadow -Wpointer-arith -Wcast-qual -Wformat=2 -Weffc++ -Wold-style-cast -Wloop-analysis -g -ggdb3 -Og -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX10.15.sdk -fcolor-diagnostics -std=gnu++17
+  INCLUDES = -I/Users/guochenghui/Desktop/cs144/sponge/libsponge/util -I/Users/guochenghui/Desktop/cs144/sponge/libsponge/tcp_helpers -I/Users/guochenghui/Desktop/cs144/sponge/libsponge
+  OBJECT_DIR = tests/CMakeFiles/wrapping_integers_roundtrip.dir
+  OBJECT_FILE_DIR = tests/CMakeFiles/wrapping_integers_roundtrip.dir
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target wrapping_integers_roundtrip
+
+
+#############################################
+# Link the executable tests/wrapping_integers_roundtrip
+
+build tests/wrapping_integers_roundtrip: CXX_EXECUTABLE_LINKER__wrapping_integers_roundtrip_Debug tests/CMakeFiles/wrapping_integers_roundtrip.dir/wrapping_integers_roundtrip.cc.o | tests/libspongechecks.a libsponge/libsponge.a || libsponge/libsponge.a tests/libspongechecks.a
+  FLAGS = -std=c++17 -g -pedantic -pedantic-errors -Werror -Wall -Wextra -Wshadow -Wpointer-arith -Wcast-qual -Wformat=2 -Weffc++ -Wold-style-cast -Wloop-analysis -g -ggdb3 -Og -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX10.15.sdk
+  LINK_LIBRARIES = tests/libspongechecks.a  libsponge/libsponge.a
+  OBJECT_DIR = tests/CMakeFiles/wrapping_integers_roundtrip.dir
+  POST_BUILD = :
+  PRE_LINK = :
+  TARGET_FILE = tests/wrapping_integers_roundtrip
+  TARGET_PDB = wrapping_integers_roundtrip.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target recv_connect
+
+
+#############################################
+# Order-only phony target for recv_connect
+
+build cmake_object_order_depends_target_recv_connect: phony || cmake_object_order_depends_target_sponge cmake_object_order_depends_target_spongechecks
+
+build tests/CMakeFiles/recv_connect.dir/recv_connect.cc.o: CXX_COMPILER__recv_connect_Debug /Users/guochenghui/Desktop/cs144/sponge/tests/recv_connect.cc || cmake_object_order_depends_target_recv_connect
+  DEP_FILE = tests/CMakeFiles/recv_connect.dir/recv_connect.cc.o.d
+  FLAGS = -std=c++17 -g -pedantic -pedantic-errors -Werror -Wall -Wextra -Wshadow -Wpointer-arith -Wcast-qual -Wformat=2 -Weffc++ -Wold-style-cast -Wloop-analysis -g -ggdb3 -Og -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX10.15.sdk -fcolor-diagnostics -std=gnu++17
+  INCLUDES = -I/Users/guochenghui/Desktop/cs144/sponge/libsponge/util -I/Users/guochenghui/Desktop/cs144/sponge/libsponge/tcp_helpers -I/Users/guochenghui/Desktop/cs144/sponge/libsponge
+  OBJECT_DIR = tests/CMakeFiles/recv_connect.dir
+  OBJECT_FILE_DIR = tests/CMakeFiles/recv_connect.dir
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target recv_connect
+
+
+#############################################
+# Link the executable tests/recv_connect
+
+build tests/recv_connect: CXX_EXECUTABLE_LINKER__recv_connect_Debug tests/CMakeFiles/recv_connect.dir/recv_connect.cc.o | tests/libspongechecks.a libsponge/libsponge.a || libsponge/libsponge.a tests/libspongechecks.a
+  FLAGS = -std=c++17 -g -pedantic -pedantic-errors -Werror -Wall -Wextra -Wshadow -Wpointer-arith -Wcast-qual -Wformat=2 -Weffc++ -Wold-style-cast -Wloop-analysis -g -ggdb3 -Og -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX10.15.sdk
+  LINK_LIBRARIES = tests/libspongechecks.a  libsponge/libsponge.a
+  OBJECT_DIR = tests/CMakeFiles/recv_connect.dir
+  POST_BUILD = :
+  PRE_LINK = :
+  TARGET_FILE = tests/recv_connect
+  TARGET_PDB = recv_connect.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target recv_transmit
+
+
+#############################################
+# Order-only phony target for recv_transmit
+
+build cmake_object_order_depends_target_recv_transmit: phony || cmake_object_order_depends_target_sponge cmake_object_order_depends_target_spongechecks
+
+build tests/CMakeFiles/recv_transmit.dir/recv_transmit.cc.o: CXX_COMPILER__recv_transmit_Debug /Users/guochenghui/Desktop/cs144/sponge/tests/recv_transmit.cc || cmake_object_order_depends_target_recv_transmit
+  DEP_FILE = tests/CMakeFiles/recv_transmit.dir/recv_transmit.cc.o.d
+  FLAGS = -std=c++17 -g -pedantic -pedantic-errors -Werror -Wall -Wextra -Wshadow -Wpointer-arith -Wcast-qual -Wformat=2 -Weffc++ -Wold-style-cast -Wloop-analysis -g -ggdb3 -Og -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX10.15.sdk -fcolor-diagnostics -std=gnu++17
+  INCLUDES = -I/Users/guochenghui/Desktop/cs144/sponge/libsponge/util -I/Users/guochenghui/Desktop/cs144/sponge/libsponge/tcp_helpers -I/Users/guochenghui/Desktop/cs144/sponge/libsponge
+  OBJECT_DIR = tests/CMakeFiles/recv_transmit.dir
+  OBJECT_FILE_DIR = tests/CMakeFiles/recv_transmit.dir
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target recv_transmit
+
+
+#############################################
+# Link the executable tests/recv_transmit
+
+build tests/recv_transmit: CXX_EXECUTABLE_LINKER__recv_transmit_Debug tests/CMakeFiles/recv_transmit.dir/recv_transmit.cc.o | tests/libspongechecks.a libsponge/libsponge.a || libsponge/libsponge.a tests/libspongechecks.a
+  FLAGS = -std=c++17 -g -pedantic -pedantic-errors -Werror -Wall -Wextra -Wshadow -Wpointer-arith -Wcast-qual -Wformat=2 -Weffc++ -Wold-style-cast -Wloop-analysis -g -ggdb3 -Og -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX10.15.sdk
+  LINK_LIBRARIES = tests/libspongechecks.a  libsponge/libsponge.a
+  OBJECT_DIR = tests/CMakeFiles/recv_transmit.dir
+  POST_BUILD = :
+  PRE_LINK = :
+  TARGET_FILE = tests/recv_transmit
+  TARGET_PDB = recv_transmit.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target recv_window
+
+
+#############################################
+# Order-only phony target for recv_window
+
+build cmake_object_order_depends_target_recv_window: phony || cmake_object_order_depends_target_sponge cmake_object_order_depends_target_spongechecks
+
+build tests/CMakeFiles/recv_window.dir/recv_window.cc.o: CXX_COMPILER__recv_window_Debug /Users/guochenghui/Desktop/cs144/sponge/tests/recv_window.cc || cmake_object_order_depends_target_recv_window
+  DEP_FILE = tests/CMakeFiles/recv_window.dir/recv_window.cc.o.d
+  FLAGS = -std=c++17 -g -pedantic -pedantic-errors -Werror -Wall -Wextra -Wshadow -Wpointer-arith -Wcast-qual -Wformat=2 -Weffc++ -Wold-style-cast -Wloop-analysis -g -ggdb3 -Og -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX10.15.sdk -fcolor-diagnostics -std=gnu++17
+  INCLUDES = -I/Users/guochenghui/Desktop/cs144/sponge/libsponge/util -I/Users/guochenghui/Desktop/cs144/sponge/libsponge/tcp_helpers -I/Users/guochenghui/Desktop/cs144/sponge/libsponge
+  OBJECT_DIR = tests/CMakeFiles/recv_window.dir
+  OBJECT_FILE_DIR = tests/CMakeFiles/recv_window.dir
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target recv_window
+
+
+#############################################
+# Link the executable tests/recv_window
+
+build tests/recv_window: CXX_EXECUTABLE_LINKER__recv_window_Debug tests/CMakeFiles/recv_window.dir/recv_window.cc.o | tests/libspongechecks.a libsponge/libsponge.a || libsponge/libsponge.a tests/libspongechecks.a
+  FLAGS = -std=c++17 -g -pedantic -pedantic-errors -Werror -Wall -Wextra -Wshadow -Wpointer-arith -Wcast-qual -Wformat=2 -Weffc++ -Wold-style-cast -Wloop-analysis -g -ggdb3 -Og -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX10.15.sdk
+  LINK_LIBRARIES = tests/libspongechecks.a  libsponge/libsponge.a
+  OBJECT_DIR = tests/CMakeFiles/recv_window.dir
+  POST_BUILD = :
+  PRE_LINK = :
+  TARGET_FILE = tests/recv_window
+  TARGET_PDB = recv_window.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target recv_reorder
+
+
+#############################################
+# Order-only phony target for recv_reorder
+
+build cmake_object_order_depends_target_recv_reorder: phony || cmake_object_order_depends_target_sponge cmake_object_order_depends_target_spongechecks
+
+build tests/CMakeFiles/recv_reorder.dir/recv_reorder.cc.o: CXX_COMPILER__recv_reorder_Debug /Users/guochenghui/Desktop/cs144/sponge/tests/recv_reorder.cc || cmake_object_order_depends_target_recv_reorder
+  DEP_FILE = tests/CMakeFiles/recv_reorder.dir/recv_reorder.cc.o.d
+  FLAGS = -std=c++17 -g -pedantic -pedantic-errors -Werror -Wall -Wextra -Wshadow -Wpointer-arith -Wcast-qual -Wformat=2 -Weffc++ -Wold-style-cast -Wloop-analysis -g -ggdb3 -Og -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX10.15.sdk -fcolor-diagnostics -std=gnu++17
+  INCLUDES = -I/Users/guochenghui/Desktop/cs144/sponge/libsponge/util -I/Users/guochenghui/Desktop/cs144/sponge/libsponge/tcp_helpers -I/Users/guochenghui/Desktop/cs144/sponge/libsponge
+  OBJECT_DIR = tests/CMakeFiles/recv_reorder.dir
+  OBJECT_FILE_DIR = tests/CMakeFiles/recv_reorder.dir
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target recv_reorder
+
+
+#############################################
+# Link the executable tests/recv_reorder
+
+build tests/recv_reorder: CXX_EXECUTABLE_LINKER__recv_reorder_Debug tests/CMakeFiles/recv_reorder.dir/recv_reorder.cc.o | tests/libspongechecks.a libsponge/libsponge.a || libsponge/libsponge.a tests/libspongechecks.a
+  FLAGS = -std=c++17 -g -pedantic -pedantic-errors -Werror -Wall -Wextra -Wshadow -Wpointer-arith -Wcast-qual -Wformat=2 -Weffc++ -Wold-style-cast -Wloop-analysis -g -ggdb3 -Og -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX10.15.sdk
+  LINK_LIBRARIES = tests/libspongechecks.a  libsponge/libsponge.a
+  OBJECT_DIR = tests/CMakeFiles/recv_reorder.dir
+  POST_BUILD = :
+  PRE_LINK = :
+  TARGET_FILE = tests/recv_reorder
+  TARGET_PDB = recv_reorder.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target recv_close
+
+
+#############################################
+# Order-only phony target for recv_close
+
+build cmake_object_order_depends_target_recv_close: phony || cmake_object_order_depends_target_sponge cmake_object_order_depends_target_spongechecks
+
+build tests/CMakeFiles/recv_close.dir/recv_close.cc.o: CXX_COMPILER__recv_close_Debug /Users/guochenghui/Desktop/cs144/sponge/tests/recv_close.cc || cmake_object_order_depends_target_recv_close
+  DEP_FILE = tests/CMakeFiles/recv_close.dir/recv_close.cc.o.d
+  FLAGS = -std=c++17 -g -pedantic -pedantic-errors -Werror -Wall -Wextra -Wshadow -Wpointer-arith -Wcast-qual -Wformat=2 -Weffc++ -Wold-style-cast -Wloop-analysis -g -ggdb3 -Og -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX10.15.sdk -fcolor-diagnostics -std=gnu++17
+  INCLUDES = -I/Users/guochenghui/Desktop/cs144/sponge/libsponge/util -I/Users/guochenghui/Desktop/cs144/sponge/libsponge/tcp_helpers -I/Users/guochenghui/Desktop/cs144/sponge/libsponge
+  OBJECT_DIR = tests/CMakeFiles/recv_close.dir
+  OBJECT_FILE_DIR = tests/CMakeFiles/recv_close.dir
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target recv_close
+
+
+#############################################
+# Link the executable tests/recv_close
+
+build tests/recv_close: CXX_EXECUTABLE_LINKER__recv_close_Debug tests/CMakeFiles/recv_close.dir/recv_close.cc.o | tests/libspongechecks.a libsponge/libsponge.a || libsponge/libsponge.a tests/libspongechecks.a
+  FLAGS = -std=c++17 -g -pedantic -pedantic-errors -Werror -Wall -Wextra -Wshadow -Wpointer-arith -Wcast-qual -Wformat=2 -Weffc++ -Wold-style-cast -Wloop-analysis -g -ggdb3 -Og -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX10.15.sdk
+  LINK_LIBRARIES = tests/libspongechecks.a  libsponge/libsponge.a
+  OBJECT_DIR = tests/CMakeFiles/recv_close.dir
+  POST_BUILD = :
+  PRE_LINK = :
+  TARGET_FILE = tests/recv_close
+  TARGET_PDB = recv_close.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target recv_special
+
+
+#############################################
+# Order-only phony target for recv_special
+
+build cmake_object_order_depends_target_recv_special: phony || cmake_object_order_depends_target_sponge cmake_object_order_depends_target_spongechecks
+
+build tests/CMakeFiles/recv_special.dir/recv_special.cc.o: CXX_COMPILER__recv_special_Debug /Users/guochenghui/Desktop/cs144/sponge/tests/recv_special.cc || cmake_object_order_depends_target_recv_special
+  DEP_FILE = tests/CMakeFiles/recv_special.dir/recv_special.cc.o.d
+  FLAGS = -std=c++17 -g -pedantic -pedantic-errors -Werror -Wall -Wextra -Wshadow -Wpointer-arith -Wcast-qual -Wformat=2 -Weffc++ -Wold-style-cast -Wloop-analysis -g -ggdb3 -Og -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX10.15.sdk -fcolor-diagnostics -std=gnu++17
+  INCLUDES = -I/Users/guochenghui/Desktop/cs144/sponge/libsponge/util -I/Users/guochenghui/Desktop/cs144/sponge/libsponge/tcp_helpers -I/Users/guochenghui/Desktop/cs144/sponge/libsponge
+  OBJECT_DIR = tests/CMakeFiles/recv_special.dir
+  OBJECT_FILE_DIR = tests/CMakeFiles/recv_special.dir
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target recv_special
+
+
+#############################################
+# Link the executable tests/recv_special
+
+build tests/recv_special: CXX_EXECUTABLE_LINKER__recv_special_Debug tests/CMakeFiles/recv_special.dir/recv_special.cc.o | tests/libspongechecks.a libsponge/libsponge.a || libsponge/libsponge.a tests/libspongechecks.a
+  FLAGS = -std=c++17 -g -pedantic -pedantic-errors -Werror -Wall -Wextra -Wshadow -Wpointer-arith -Wcast-qual -Wformat=2 -Weffc++ -Wold-style-cast -Wloop-analysis -g -ggdb3 -Og -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX10.15.sdk
+  LINK_LIBRARIES = tests/libspongechecks.a  libsponge/libsponge.a
+  OBJECT_DIR = tests/CMakeFiles/recv_special.dir
+  POST_BUILD = :
+  PRE_LINK = :
+  TARGET_FILE = tests/recv_special
+  TARGET_PDB = recv_special.dbg
+
 
 #############################################
 # Utility command for test
@@ -1098,13 +1496,35 @@ build libspongechecks.a: phony tests/libspongechecks.a
 
 build parser_dt: phony doctests/parser_dt
 
+build recv_close: phony tests/recv_close
+
+build recv_connect: phony tests/recv_connect
+
+build recv_reorder: phony tests/recv_reorder
+
+build recv_special: phony tests/recv_special
+
+build recv_transmit: phony tests/recv_transmit
+
+build recv_window: phony tests/recv_window
+
 build socket_dt: phony doctests/socket_dt
 
 build sponge: phony libsponge/libsponge.a
 
 build spongechecks: phony tests/libspongechecks.a
 
+build tcp_parser: phony tests/tcp_parser
+
 build webget: phony apps/webget
+
+build wrapping_integers_cmp: phony tests/wrapping_integers_cmp
+
+build wrapping_integers_roundtrip: phony tests/wrapping_integers_roundtrip
+
+build wrapping_integers_unwrap: phony tests/wrapping_integers_unwrap
+
+build wrapping_integers_wrap: phony tests/wrapping_integers_wrap
 
 # =============================================================================
 # Folder targets.
@@ -1142,7 +1562,7 @@ build libsponge/all: phony libsponge/libsponge.a
 #############################################
 # Folder: /Users/guochenghui/Desktop/cs144/sponge/cmake-build-debug/tests
 
-build tests/all: phony tests/libspongechecks.a tests/fsm_stream_reassembler_single tests/fsm_stream_reassembler_seq tests/fsm_stream_reassembler_dup tests/fsm_stream_reassembler_holes tests/fsm_stream_reassembler_many tests/fsm_stream_reassembler_overlapping tests/fsm_stream_reassembler_win tests/fsm_stream_reassembler_cap tests/byte_stream_construction tests/byte_stream_one_write tests/byte_stream_two_writes tests/byte_stream_capacity tests/byte_stream_many_writes
+build tests/all: phony tests/libspongechecks.a tests/tcp_parser tests/fsm_stream_reassembler_single tests/fsm_stream_reassembler_seq tests/fsm_stream_reassembler_dup tests/fsm_stream_reassembler_holes tests/fsm_stream_reassembler_many tests/fsm_stream_reassembler_overlapping tests/fsm_stream_reassembler_win tests/fsm_stream_reassembler_cap tests/byte_stream_construction tests/byte_stream_one_write tests/byte_stream_two_writes tests/byte_stream_capacity tests/byte_stream_many_writes tests/wrapping_integers_cmp tests/wrapping_integers_unwrap tests/wrapping_integers_wrap tests/wrapping_integers_roundtrip tests/recv_connect tests/recv_transmit tests/recv_window tests/recv_reorder tests/recv_close tests/recv_special
 
 # =============================================================================
 # Unknown Build Time Dependencies.

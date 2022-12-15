@@ -91,7 +91,6 @@ void StreamReassembler::reassemble(const size_t old_first_unassembled, const siz
 }
 
 void StreamReassembler::put_in_buff(const std::string &data, const size_t idx){
-    int unacceptable = get_first_unacceptable();
     for(size_t i= 0; i < data.length(); i++){
         if(idx + i < get_first_unacceptable()){
             _buf[idx + i] = data[i];
