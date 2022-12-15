@@ -16,7 +16,7 @@ class StreamReassembler {
     ByteStream _output;  //!< The reassembled in-order byte stream
     size_t _capacity;    //!< The maximum number of bytes
 
-    std::map<size_t, std::string> _unassemble_strs;
+    std::map<size_t, char> _buf;
     size_t _first_unread;
     size_t _first_unassembled;
     size_t _first_unacceptable;
@@ -41,6 +41,8 @@ class StreamReassembler {
 
     size_t get_first_unassembled();
     size_t get_first_unacceptable();
+    size_t get_first_unread();
+
     void put_in_buff(const std::string &data, const size_t idx);
     void reassemble(const size_t _first_unassembled, const size_t first_unacceptable);
     //! \name Access the reassembled byte stream
