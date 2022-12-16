@@ -39,9 +39,9 @@ class StreamReassembler {
     //! \param eof the last byte of `data` will be the last byte in the entire stream
     void push_substring(const std::string &data, const uint64_t index, const bool eof);
 
-    size_t get_first_unassembled();
-    size_t get_first_unacceptable();
-    size_t get_first_unread();
+    size_t get_first_unassembled() const;
+    size_t get_first_unacceptable() const;
+    size_t get_first_unread() const;
 
     void put_in_buff(const std::string &data, const size_t idx);
     void reassemble(const size_t _first_unassembled, const size_t first_unacceptable);

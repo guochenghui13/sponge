@@ -98,8 +98,8 @@ void StreamReassembler::put_in_buff(const std::string &data, const size_t idx){
     }
 }
 
-size_t StreamReassembler::get_first_unassembled() {return _output.bytes_written(); }
-size_t StreamReassembler::get_first_unacceptable() {return _output.bytes_read() + _capacity; }
-size_t StreamReassembler::get_first_unread() {return _output.bytes_read(); }
+size_t StreamReassembler::get_first_unassembled() const {return _output.bytes_written(); }
+size_t StreamReassembler::get_first_unacceptable() const {return _output.bytes_read() + _capacity; }
+size_t StreamReassembler::get_first_unread() const {return _output.bytes_read(); }
 size_t StreamReassembler::unassembled_bytes() const {return _buf.size(); }
 bool StreamReassembler::empty() const { return _buf.empty(); }
