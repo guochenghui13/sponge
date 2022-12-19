@@ -267,6 +267,13 @@ build libsponge/CMakeFiles/sponge.dir/tcp_receiver.cc.o: CXX_COMPILER__sponge_De
   OBJECT_DIR = libsponge/CMakeFiles/sponge.dir
   OBJECT_FILE_DIR = libsponge/CMakeFiles/sponge.dir
 
+build libsponge/CMakeFiles/sponge.dir/tcp_sender.cc.o: CXX_COMPILER__sponge_Debug /Users/guochenghui/Desktop/cs144/sponge/libsponge/tcp_sender.cc || cmake_object_order_depends_target_sponge
+  DEP_FILE = libsponge/CMakeFiles/sponge.dir/tcp_sender.cc.o.d
+  FLAGS = -std=c++17 -g -pedantic -pedantic-errors -Werror -Wall -Wextra -Wshadow -Wpointer-arith -Wcast-qual -Wformat=2 -Weffc++ -Wold-style-cast -Wloop-analysis -g -ggdb3 -Og -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX10.15.sdk -fcolor-diagnostics -std=gnu++17
+  INCLUDES = -I/Users/guochenghui/Desktop/cs144/sponge/libsponge/util -I/Users/guochenghui/Desktop/cs144/sponge/libsponge/tcp_helpers -I/Users/guochenghui/Desktop/cs144/sponge/libsponge
+  OBJECT_DIR = libsponge/CMakeFiles/sponge.dir
+  OBJECT_FILE_DIR = libsponge/CMakeFiles/sponge.dir
+
 build libsponge/CMakeFiles/sponge.dir/util/address.cc.o: CXX_COMPILER__sponge_Debug /Users/guochenghui/Desktop/cs144/sponge/libsponge/util/address.cc || cmake_object_order_depends_target_sponge
   DEP_FILE = libsponge/CMakeFiles/sponge.dir/util/address.cc.o.d
   FLAGS = -std=c++17 -g -pedantic -pedantic-errors -Werror -Wall -Wextra -Wshadow -Wpointer-arith -Wcast-qual -Wformat=2 -Weffc++ -Wold-style-cast -Wloop-analysis -g -ggdb3 -Og -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX10.15.sdk -fcolor-diagnostics -std=gnu++17
@@ -338,7 +345,7 @@ build libsponge/CMakeFiles/sponge.dir/wrapping_integers.cc.o: CXX_COMPILER__spon
 #############################################
 # Link the static library libsponge/libsponge.a
 
-build libsponge/libsponge.a: CXX_STATIC_LIBRARY_LINKER__sponge_Debug libsponge/CMakeFiles/sponge.dir/byte_stream.cc.o libsponge/CMakeFiles/sponge.dir/stream_reassembler.cc.o libsponge/CMakeFiles/sponge.dir/tcp_helpers/tcp_header.cc.o libsponge/CMakeFiles/sponge.dir/tcp_helpers/tcp_segment.cc.o libsponge/CMakeFiles/sponge.dir/tcp_helpers/tcp_state.cc.o libsponge/CMakeFiles/sponge.dir/tcp_receiver.cc.o libsponge/CMakeFiles/sponge.dir/util/address.cc.o libsponge/CMakeFiles/sponge.dir/util/buffer.cc.o libsponge/CMakeFiles/sponge.dir/util/eventloop.cc.o libsponge/CMakeFiles/sponge.dir/util/file_descriptor.cc.o libsponge/CMakeFiles/sponge.dir/util/parser.cc.o libsponge/CMakeFiles/sponge.dir/util/socket.cc.o libsponge/CMakeFiles/sponge.dir/util/tun.cc.o libsponge/CMakeFiles/sponge.dir/util/util.cc.o libsponge/CMakeFiles/sponge.dir/wrapping_integers.cc.o
+build libsponge/libsponge.a: CXX_STATIC_LIBRARY_LINKER__sponge_Debug libsponge/CMakeFiles/sponge.dir/byte_stream.cc.o libsponge/CMakeFiles/sponge.dir/stream_reassembler.cc.o libsponge/CMakeFiles/sponge.dir/tcp_helpers/tcp_header.cc.o libsponge/CMakeFiles/sponge.dir/tcp_helpers/tcp_segment.cc.o libsponge/CMakeFiles/sponge.dir/tcp_helpers/tcp_state.cc.o libsponge/CMakeFiles/sponge.dir/tcp_receiver.cc.o libsponge/CMakeFiles/sponge.dir/tcp_sender.cc.o libsponge/CMakeFiles/sponge.dir/util/address.cc.o libsponge/CMakeFiles/sponge.dir/util/buffer.cc.o libsponge/CMakeFiles/sponge.dir/util/eventloop.cc.o libsponge/CMakeFiles/sponge.dir/util/file_descriptor.cc.o libsponge/CMakeFiles/sponge.dir/util/parser.cc.o libsponge/CMakeFiles/sponge.dir/util/socket.cc.o libsponge/CMakeFiles/sponge.dir/util/tun.cc.o libsponge/CMakeFiles/sponge.dir/util/util.cc.o libsponge/CMakeFiles/sponge.dir/wrapping_integers.cc.o
   ARCH_FLAGS = -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX10.15.sdk
   LANGUAGE_COMPILE_FLAGS = -std=c++17 -g -pedantic -pedantic-errors -Werror -Wall -Wextra -Wshadow -Wpointer-arith -Wcast-qual -Wformat=2 -Weffc++ -Wold-style-cast -Wloop-analysis -g -ggdb3 -Og
   OBJECT_DIR = libsponge/CMakeFiles/sponge.dir
@@ -1285,6 +1292,237 @@ build tests/recv_special: CXX_EXECUTABLE_LINKER__recv_special_Debug tests/CMakeF
   TARGET_FILE = tests/recv_special
   TARGET_PDB = recv_special.dbg
 
+# =============================================================================
+# Object build statements for EXECUTABLE target send_connect
+
+
+#############################################
+# Order-only phony target for send_connect
+
+build cmake_object_order_depends_target_send_connect: phony || cmake_object_order_depends_target_sponge cmake_object_order_depends_target_spongechecks
+
+build tests/CMakeFiles/send_connect.dir/send_connect.cc.o: CXX_COMPILER__send_connect_Debug /Users/guochenghui/Desktop/cs144/sponge/tests/send_connect.cc || cmake_object_order_depends_target_send_connect
+  DEP_FILE = tests/CMakeFiles/send_connect.dir/send_connect.cc.o.d
+  FLAGS = -std=c++17 -g -pedantic -pedantic-errors -Werror -Wall -Wextra -Wshadow -Wpointer-arith -Wcast-qual -Wformat=2 -Weffc++ -Wold-style-cast -Wloop-analysis -g -ggdb3 -Og -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX10.15.sdk -fcolor-diagnostics -std=gnu++17
+  INCLUDES = -I/Users/guochenghui/Desktop/cs144/sponge/libsponge/util -I/Users/guochenghui/Desktop/cs144/sponge/libsponge/tcp_helpers -I/Users/guochenghui/Desktop/cs144/sponge/libsponge
+  OBJECT_DIR = tests/CMakeFiles/send_connect.dir
+  OBJECT_FILE_DIR = tests/CMakeFiles/send_connect.dir
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target send_connect
+
+
+#############################################
+# Link the executable tests/send_connect
+
+build tests/send_connect: CXX_EXECUTABLE_LINKER__send_connect_Debug tests/CMakeFiles/send_connect.dir/send_connect.cc.o | tests/libspongechecks.a libsponge/libsponge.a || libsponge/libsponge.a tests/libspongechecks.a
+  FLAGS = -std=c++17 -g -pedantic -pedantic-errors -Werror -Wall -Wextra -Wshadow -Wpointer-arith -Wcast-qual -Wformat=2 -Weffc++ -Wold-style-cast -Wloop-analysis -g -ggdb3 -Og -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX10.15.sdk
+  LINK_LIBRARIES = tests/libspongechecks.a  libsponge/libsponge.a
+  OBJECT_DIR = tests/CMakeFiles/send_connect.dir
+  POST_BUILD = :
+  PRE_LINK = :
+  TARGET_FILE = tests/send_connect
+  TARGET_PDB = send_connect.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target send_transmit
+
+
+#############################################
+# Order-only phony target for send_transmit
+
+build cmake_object_order_depends_target_send_transmit: phony || cmake_object_order_depends_target_sponge cmake_object_order_depends_target_spongechecks
+
+build tests/CMakeFiles/send_transmit.dir/send_transmit.cc.o: CXX_COMPILER__send_transmit_Debug /Users/guochenghui/Desktop/cs144/sponge/tests/send_transmit.cc || cmake_object_order_depends_target_send_transmit
+  DEP_FILE = tests/CMakeFiles/send_transmit.dir/send_transmit.cc.o.d
+  FLAGS = -std=c++17 -g -pedantic -pedantic-errors -Werror -Wall -Wextra -Wshadow -Wpointer-arith -Wcast-qual -Wformat=2 -Weffc++ -Wold-style-cast -Wloop-analysis -g -ggdb3 -Og -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX10.15.sdk -fcolor-diagnostics -std=gnu++17
+  INCLUDES = -I/Users/guochenghui/Desktop/cs144/sponge/libsponge/util -I/Users/guochenghui/Desktop/cs144/sponge/libsponge/tcp_helpers -I/Users/guochenghui/Desktop/cs144/sponge/libsponge
+  OBJECT_DIR = tests/CMakeFiles/send_transmit.dir
+  OBJECT_FILE_DIR = tests/CMakeFiles/send_transmit.dir
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target send_transmit
+
+
+#############################################
+# Link the executable tests/send_transmit
+
+build tests/send_transmit: CXX_EXECUTABLE_LINKER__send_transmit_Debug tests/CMakeFiles/send_transmit.dir/send_transmit.cc.o | tests/libspongechecks.a libsponge/libsponge.a || libsponge/libsponge.a tests/libspongechecks.a
+  FLAGS = -std=c++17 -g -pedantic -pedantic-errors -Werror -Wall -Wextra -Wshadow -Wpointer-arith -Wcast-qual -Wformat=2 -Weffc++ -Wold-style-cast -Wloop-analysis -g -ggdb3 -Og -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX10.15.sdk
+  LINK_LIBRARIES = tests/libspongechecks.a  libsponge/libsponge.a
+  OBJECT_DIR = tests/CMakeFiles/send_transmit.dir
+  POST_BUILD = :
+  PRE_LINK = :
+  TARGET_FILE = tests/send_transmit
+  TARGET_PDB = send_transmit.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target send_retx
+
+
+#############################################
+# Order-only phony target for send_retx
+
+build cmake_object_order_depends_target_send_retx: phony || cmake_object_order_depends_target_sponge cmake_object_order_depends_target_spongechecks
+
+build tests/CMakeFiles/send_retx.dir/send_retx.cc.o: CXX_COMPILER__send_retx_Debug /Users/guochenghui/Desktop/cs144/sponge/tests/send_retx.cc || cmake_object_order_depends_target_send_retx
+  DEP_FILE = tests/CMakeFiles/send_retx.dir/send_retx.cc.o.d
+  FLAGS = -std=c++17 -g -pedantic -pedantic-errors -Werror -Wall -Wextra -Wshadow -Wpointer-arith -Wcast-qual -Wformat=2 -Weffc++ -Wold-style-cast -Wloop-analysis -g -ggdb3 -Og -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX10.15.sdk -fcolor-diagnostics -std=gnu++17
+  INCLUDES = -I/Users/guochenghui/Desktop/cs144/sponge/libsponge/util -I/Users/guochenghui/Desktop/cs144/sponge/libsponge/tcp_helpers -I/Users/guochenghui/Desktop/cs144/sponge/libsponge
+  OBJECT_DIR = tests/CMakeFiles/send_retx.dir
+  OBJECT_FILE_DIR = tests/CMakeFiles/send_retx.dir
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target send_retx
+
+
+#############################################
+# Link the executable tests/send_retx
+
+build tests/send_retx: CXX_EXECUTABLE_LINKER__send_retx_Debug tests/CMakeFiles/send_retx.dir/send_retx.cc.o | tests/libspongechecks.a libsponge/libsponge.a || libsponge/libsponge.a tests/libspongechecks.a
+  FLAGS = -std=c++17 -g -pedantic -pedantic-errors -Werror -Wall -Wextra -Wshadow -Wpointer-arith -Wcast-qual -Wformat=2 -Weffc++ -Wold-style-cast -Wloop-analysis -g -ggdb3 -Og -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX10.15.sdk
+  LINK_LIBRARIES = tests/libspongechecks.a  libsponge/libsponge.a
+  OBJECT_DIR = tests/CMakeFiles/send_retx.dir
+  POST_BUILD = :
+  PRE_LINK = :
+  TARGET_FILE = tests/send_retx
+  TARGET_PDB = send_retx.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target send_ack
+
+
+#############################################
+# Order-only phony target for send_ack
+
+build cmake_object_order_depends_target_send_ack: phony || cmake_object_order_depends_target_sponge cmake_object_order_depends_target_spongechecks
+
+build tests/CMakeFiles/send_ack.dir/send_ack.cc.o: CXX_COMPILER__send_ack_Debug /Users/guochenghui/Desktop/cs144/sponge/tests/send_ack.cc || cmake_object_order_depends_target_send_ack
+  DEP_FILE = tests/CMakeFiles/send_ack.dir/send_ack.cc.o.d
+  FLAGS = -std=c++17 -g -pedantic -pedantic-errors -Werror -Wall -Wextra -Wshadow -Wpointer-arith -Wcast-qual -Wformat=2 -Weffc++ -Wold-style-cast -Wloop-analysis -g -ggdb3 -Og -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX10.15.sdk -fcolor-diagnostics -std=gnu++17
+  INCLUDES = -I/Users/guochenghui/Desktop/cs144/sponge/libsponge/util -I/Users/guochenghui/Desktop/cs144/sponge/libsponge/tcp_helpers -I/Users/guochenghui/Desktop/cs144/sponge/libsponge
+  OBJECT_DIR = tests/CMakeFiles/send_ack.dir
+  OBJECT_FILE_DIR = tests/CMakeFiles/send_ack.dir
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target send_ack
+
+
+#############################################
+# Link the executable tests/send_ack
+
+build tests/send_ack: CXX_EXECUTABLE_LINKER__send_ack_Debug tests/CMakeFiles/send_ack.dir/send_ack.cc.o | tests/libspongechecks.a libsponge/libsponge.a || libsponge/libsponge.a tests/libspongechecks.a
+  FLAGS = -std=c++17 -g -pedantic -pedantic-errors -Werror -Wall -Wextra -Wshadow -Wpointer-arith -Wcast-qual -Wformat=2 -Weffc++ -Wold-style-cast -Wloop-analysis -g -ggdb3 -Og -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX10.15.sdk
+  LINK_LIBRARIES = tests/libspongechecks.a  libsponge/libsponge.a
+  OBJECT_DIR = tests/CMakeFiles/send_ack.dir
+  POST_BUILD = :
+  PRE_LINK = :
+  TARGET_FILE = tests/send_ack
+  TARGET_PDB = send_ack.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target send_window
+
+
+#############################################
+# Order-only phony target for send_window
+
+build cmake_object_order_depends_target_send_window: phony || cmake_object_order_depends_target_sponge cmake_object_order_depends_target_spongechecks
+
+build tests/CMakeFiles/send_window.dir/send_window.cc.o: CXX_COMPILER__send_window_Debug /Users/guochenghui/Desktop/cs144/sponge/tests/send_window.cc || cmake_object_order_depends_target_send_window
+  DEP_FILE = tests/CMakeFiles/send_window.dir/send_window.cc.o.d
+  FLAGS = -std=c++17 -g -pedantic -pedantic-errors -Werror -Wall -Wextra -Wshadow -Wpointer-arith -Wcast-qual -Wformat=2 -Weffc++ -Wold-style-cast -Wloop-analysis -g -ggdb3 -Og -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX10.15.sdk -fcolor-diagnostics -std=gnu++17
+  INCLUDES = -I/Users/guochenghui/Desktop/cs144/sponge/libsponge/util -I/Users/guochenghui/Desktop/cs144/sponge/libsponge/tcp_helpers -I/Users/guochenghui/Desktop/cs144/sponge/libsponge
+  OBJECT_DIR = tests/CMakeFiles/send_window.dir
+  OBJECT_FILE_DIR = tests/CMakeFiles/send_window.dir
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target send_window
+
+
+#############################################
+# Link the executable tests/send_window
+
+build tests/send_window: CXX_EXECUTABLE_LINKER__send_window_Debug tests/CMakeFiles/send_window.dir/send_window.cc.o | tests/libspongechecks.a libsponge/libsponge.a || libsponge/libsponge.a tests/libspongechecks.a
+  FLAGS = -std=c++17 -g -pedantic -pedantic-errors -Werror -Wall -Wextra -Wshadow -Wpointer-arith -Wcast-qual -Wformat=2 -Weffc++ -Wold-style-cast -Wloop-analysis -g -ggdb3 -Og -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX10.15.sdk
+  LINK_LIBRARIES = tests/libspongechecks.a  libsponge/libsponge.a
+  OBJECT_DIR = tests/CMakeFiles/send_window.dir
+  POST_BUILD = :
+  PRE_LINK = :
+  TARGET_FILE = tests/send_window
+  TARGET_PDB = send_window.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target send_close
+
+
+#############################################
+# Order-only phony target for send_close
+
+build cmake_object_order_depends_target_send_close: phony || cmake_object_order_depends_target_sponge cmake_object_order_depends_target_spongechecks
+
+build tests/CMakeFiles/send_close.dir/send_close.cc.o: CXX_COMPILER__send_close_Debug /Users/guochenghui/Desktop/cs144/sponge/tests/send_close.cc || cmake_object_order_depends_target_send_close
+  DEP_FILE = tests/CMakeFiles/send_close.dir/send_close.cc.o.d
+  FLAGS = -std=c++17 -g -pedantic -pedantic-errors -Werror -Wall -Wextra -Wshadow -Wpointer-arith -Wcast-qual -Wformat=2 -Weffc++ -Wold-style-cast -Wloop-analysis -g -ggdb3 -Og -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX10.15.sdk -fcolor-diagnostics -std=gnu++17
+  INCLUDES = -I/Users/guochenghui/Desktop/cs144/sponge/libsponge/util -I/Users/guochenghui/Desktop/cs144/sponge/libsponge/tcp_helpers -I/Users/guochenghui/Desktop/cs144/sponge/libsponge
+  OBJECT_DIR = tests/CMakeFiles/send_close.dir
+  OBJECT_FILE_DIR = tests/CMakeFiles/send_close.dir
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target send_close
+
+
+#############################################
+# Link the executable tests/send_close
+
+build tests/send_close: CXX_EXECUTABLE_LINKER__send_close_Debug tests/CMakeFiles/send_close.dir/send_close.cc.o | tests/libspongechecks.a libsponge/libsponge.a || libsponge/libsponge.a tests/libspongechecks.a
+  FLAGS = -std=c++17 -g -pedantic -pedantic-errors -Werror -Wall -Wextra -Wshadow -Wpointer-arith -Wcast-qual -Wformat=2 -Weffc++ -Wold-style-cast -Wloop-analysis -g -ggdb3 -Og -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX10.15.sdk
+  LINK_LIBRARIES = tests/libspongechecks.a  libsponge/libsponge.a
+  OBJECT_DIR = tests/CMakeFiles/send_close.dir
+  POST_BUILD = :
+  PRE_LINK = :
+  TARGET_FILE = tests/send_close
+  TARGET_PDB = send_close.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target send_extra
+
+
+#############################################
+# Order-only phony target for send_extra
+
+build cmake_object_order_depends_target_send_extra: phony || cmake_object_order_depends_target_sponge cmake_object_order_depends_target_spongechecks
+
+build tests/CMakeFiles/send_extra.dir/send_extra.cc.o: CXX_COMPILER__send_extra_Debug /Users/guochenghui/Desktop/cs144/sponge/tests/send_extra.cc || cmake_object_order_depends_target_send_extra
+  DEP_FILE = tests/CMakeFiles/send_extra.dir/send_extra.cc.o.d
+  FLAGS = -std=c++17 -g -pedantic -pedantic-errors -Werror -Wall -Wextra -Wshadow -Wpointer-arith -Wcast-qual -Wformat=2 -Weffc++ -Wold-style-cast -Wloop-analysis -g -ggdb3 -Og -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX10.15.sdk -fcolor-diagnostics -std=gnu++17
+  INCLUDES = -I/Users/guochenghui/Desktop/cs144/sponge/libsponge/util -I/Users/guochenghui/Desktop/cs144/sponge/libsponge/tcp_helpers -I/Users/guochenghui/Desktop/cs144/sponge/libsponge
+  OBJECT_DIR = tests/CMakeFiles/send_extra.dir
+  OBJECT_FILE_DIR = tests/CMakeFiles/send_extra.dir
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target send_extra
+
+
+#############################################
+# Link the executable tests/send_extra
+
+build tests/send_extra: CXX_EXECUTABLE_LINKER__send_extra_Debug tests/CMakeFiles/send_extra.dir/send_extra.cc.o | tests/libspongechecks.a libsponge/libsponge.a || libsponge/libsponge.a tests/libspongechecks.a
+  FLAGS = -std=c++17 -g -pedantic -pedantic-errors -Werror -Wall -Wextra -Wshadow -Wpointer-arith -Wcast-qual -Wformat=2 -Weffc++ -Wold-style-cast -Wloop-analysis -g -ggdb3 -Og -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX10.15.sdk
+  LINK_LIBRARIES = tests/libspongechecks.a  libsponge/libsponge.a
+  OBJECT_DIR = tests/CMakeFiles/send_extra.dir
+  POST_BUILD = :
+  PRE_LINK = :
+  TARGET_FILE = tests/send_extra
+  TARGET_PDB = send_extra.dbg
+
 
 #############################################
 # Utility command for test
@@ -1508,6 +1746,20 @@ build recv_transmit: phony tests/recv_transmit
 
 build recv_window: phony tests/recv_window
 
+build send_ack: phony tests/send_ack
+
+build send_close: phony tests/send_close
+
+build send_connect: phony tests/send_connect
+
+build send_extra: phony tests/send_extra
+
+build send_retx: phony tests/send_retx
+
+build send_transmit: phony tests/send_transmit
+
+build send_window: phony tests/send_window
+
 build socket_dt: phony doctests/socket_dt
 
 build sponge: phony libsponge/libsponge.a
@@ -1562,7 +1814,7 @@ build libsponge/all: phony libsponge/libsponge.a
 #############################################
 # Folder: /Users/guochenghui/Desktop/cs144/sponge/cmake-build-debug/tests
 
-build tests/all: phony tests/libspongechecks.a tests/tcp_parser tests/fsm_stream_reassembler_single tests/fsm_stream_reassembler_seq tests/fsm_stream_reassembler_dup tests/fsm_stream_reassembler_holes tests/fsm_stream_reassembler_many tests/fsm_stream_reassembler_overlapping tests/fsm_stream_reassembler_win tests/fsm_stream_reassembler_cap tests/byte_stream_construction tests/byte_stream_one_write tests/byte_stream_two_writes tests/byte_stream_capacity tests/byte_stream_many_writes tests/wrapping_integers_cmp tests/wrapping_integers_unwrap tests/wrapping_integers_wrap tests/wrapping_integers_roundtrip tests/recv_connect tests/recv_transmit tests/recv_window tests/recv_reorder tests/recv_close tests/recv_special
+build tests/all: phony tests/libspongechecks.a tests/tcp_parser tests/fsm_stream_reassembler_single tests/fsm_stream_reassembler_seq tests/fsm_stream_reassembler_dup tests/fsm_stream_reassembler_holes tests/fsm_stream_reassembler_many tests/fsm_stream_reassembler_overlapping tests/fsm_stream_reassembler_win tests/fsm_stream_reassembler_cap tests/byte_stream_construction tests/byte_stream_one_write tests/byte_stream_two_writes tests/byte_stream_capacity tests/byte_stream_many_writes tests/wrapping_integers_cmp tests/wrapping_integers_unwrap tests/wrapping_integers_wrap tests/wrapping_integers_roundtrip tests/recv_connect tests/recv_transmit tests/recv_window tests/recv_reorder tests/recv_close tests/recv_special tests/send_connect tests/send_transmit tests/send_retx tests/send_ack tests/send_window tests/send_close tests/send_extra
 
 # =============================================================================
 # Unknown Build Time Dependencies.
