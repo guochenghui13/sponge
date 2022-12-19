@@ -8,6 +8,7 @@
 
 #include <functional>
 #include <queue>
+#include <vector>
 
 //! \brief The "sender" part of a TCP implementation.
 
@@ -31,6 +32,26 @@ class TCPSender {
 
     //! the (absolute) sequence number for the next byte to be sent
     uint64_t _next_seqno{0};
+
+    // 自定义数据
+    uint64_t _ackno_absolute{0}; // 记录receiver发送的最新的ackno_absolute
+    WrappingInt32 _ackno; // 记录receiver发送的最新的ackno
+    std::vector<TCPSegment> fly_segment{}; // 没有确认的数据包
+
+    // 关于重试
+    uint32_t retx_nums{0}; // 针对于一个数据重传的次数，当重传次数太多， 可能连接会被关闭
+    unsigned int _retransmission_timeout; // 变化的rto
+    size_t _ticks; // logic time记录发送后过去多久
+
+    // 流量控制
+    uint32_t  _window_size;
+    bool zero_window;
+
+    // 状态有关的变量
+    bool syn_send;
+    bool syn_received;
+    bool fin_send;
+    bool fin_received;
 
   public:
     //! Initialize a TCPSender
@@ -87,6 +108,9 @@ class TCPSender {
     //! \brief relative seqno for the next byte to be sent
     WrappingInt32 next_seqno() const { return wrap(_next_seqno, _isn); }
     //!@}
+
+    uint64_t ackno_absolut() const {return  _ackno_absolute; }
+    WrappingInt32 get_ackno() const {return wrap(_ackno_absolute, _isn); }
 };
 
 #endif  // SPONGE_LIBSPONGE_TCP_SENDER_HH
