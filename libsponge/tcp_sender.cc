@@ -54,9 +54,6 @@ void TCPSender::fill_window() {
             seg.header().syn = true;
             seg.header().seqno = _isn;
             syn_send = true;
-        } else if(!fin_send && _stream.eof()){
-            // fin包处理
-            seg.header().fin = true;
         } else{
             // 普通包处理
             seg.header().seqno = wrap(_next_seqno, _isn);
@@ -65,6 +62,15 @@ void TCPSender::fill_window() {
         // 处理body
         size_t len = min(_window_size - bytes_in_flight() - seg.length_in_sequence_space(), TCPConfig::MAX_PAYLOAD_SIZE);
         seg.payload() = _stream.read(len);
+
+        // TODO: 这里放在了后面再处理fin头部, 不合理
+        if(!fin_send && _stream.eof()){
+            // 放fin的前提是还有空间
+            if(bytes_in_flight() + seg.length_in_sequence_space() < _window_size){
+                seg.header().fin = true;
+                fin_send = true;
+            }
+        }
 
         if (seg.length_in_sequence_space() == 0) break;
 
@@ -85,7 +91,18 @@ void TCPSender::ack_received(const WrappingInt32 ackno, const uint16_t window_si
     // 更新状态
     // 首先要获取ack， 然后判断这个ack是否是比我们记录的ack还小， 如果还小的话可能是历史记录， 然后可以不用管
     uint64_t tmp_ackno_absolute = unwrap(ackno, _isn, _ackno_absolute);
-    if(tmp_ackno_absolute < _ackno_absolute) return;
+
+    // 更新窗口
+    if(window_size > 0){
+        _window_size = window_size;
+        zero_window = false;
+    } else{
+        // HINT 如果窗口大小是0 就将其看成1
+        _window_size = 1;
+        zero_window = true;
+    }
+
+    if(tmp_ackno_absolute <= _ackno_absolute || tmp_ackno_absolute > _next_seqno) return;
     else{
         _ackno_absolute = tmp_ackno_absolute;
         _ackno = ackno;
@@ -101,16 +118,6 @@ void TCPSender::ack_received(const WrappingInt32 ackno, const uint16_t window_si
     retx_nums = 0;
     _retransmission_timeout = _initial_retransmission_timeout;
     _ticks = 0;
-
-    // 更新窗口
-    if(window_size > 0){
-        _window_size = window_size;
-        zero_window = false;
-    } else{
-        // HINT 如果窗口大小是0 就将其看成1
-        _window_size = 1;
-        zero_window = true;
-    }
 
     // 更新确认
     vector<TCPSegment> tmp_vec;
@@ -129,6 +136,7 @@ void TCPSender::tick(const size_t ms_since_last_tick) {
     if(fly_segment.empty()){
         cout << "NO fly segment, but tick expires" << endl;
         _ticks = 0;
+        return;
     }
 
     _ticks += ms_since_last_tick;
